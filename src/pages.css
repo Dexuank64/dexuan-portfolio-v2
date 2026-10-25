@@ -1,0 +1,47 @@
+.brand{font-size:25px;letter-spacing:-.6px}
+.brand em{font-size:14px;letter-spacing:.2px;margin-top:4px}
+.header-inner{height:102px}
+nav{font-size:16px;gap:30px}
+nav a[aria-current=page]{color:var(--gold)}
+nav .nav-linkedin{font-size:22px}
+.hero-about{width:350px;padding:27px 30px 30px}
+.hero-portrait{width:100px;height:100px;border-radius:50%;object-fit:cover;filter:none;border:2px solid #b4c1b34d;margin-bottom:20px}
+.hero-about h1{font-size:29px;margin:0 0 17px;letter-spacing:-.7px}
+.hero-about>p{font-size:14px!important;line-height:1.8!important;color:#d0d8d4}
+.hero-meta{display:flex;gap:20px;margin:20px 0 24px;font-size:11px;color:#b5c3b8}
+.hero-meta>span{display:flex;align-items:center;gap:7px}
+.hero-meta>span:before{content:'';width:4px;height:4px;background:var(--gold);border-radius:50%}
+.main-projects.section{padding-top:35px;padding-bottom:75px}
+.main-projects-heading h2{font-size:23px;letter-spacing:-.4px;font-weight:500}
+.team-project{grid-template-columns:1fr 1.2fr;align-items:start;gap:38px;padding:30px;margin-top:22px}
+.project-copy h3{font-size:30px;letter-spacing:-.8px;margin:0 0 10px}
+.project-copy h3 span{font-size:23px;font-weight:600;color:inherit;margin-left:8px}
+.project-copy>.eyebrow{margin-bottom:15px;font-size:9px}
+.role{font-size:17px;padding-bottom:22px;color:#e1e6de}
+.project-description{font-size:15px;margin:20px 0 27px;line-height:1.75}
+.project-columns{grid-template-columns:.8fr 1.3fr;gap:25px}
+.project-columns h4{font-size:16px;line-height:1.3;font-weight:500}
+.project-columns dl{font-size:13px;line-height:1.65;display:block}
+.project-columns dt{display:inline;color:#c4d0c7}
+.project-columns dt:after{content:': '}
+.project-columns dd{display:inline;color:#c4d0c7;margin:0}
+.project-columns dl>div{margin-bottom:9px}
+.responsibilities ul{font-size:13px;line-height:1.8}
+.project-visual{align-self:start;padding-top:16px}
+.project-image-wrap{aspect-ratio:16/10}
+.project-video{display:block;width:100%;height:100%;background:#080d0d;object-fit:contain}
+.project-image-wrap:has(video) .image-tag{top:14px;bottom:auto;pointer-events:none}
+.project-actions{margin-top:25px}
+.standalone-page{padding-top:102px;min-height:80svh}
+.standalone-heading{padding-top:65px;padding-bottom:50px}
+.standalone-heading h1{font-size:clamp(38px,5vw,70px);font-weight:600;line-height:1.1;letter-spacing:-2px;margin:18px 0 20px}
+.standalone-heading p{font-size:15px;color:var(--muted)}
+.standalone-page .combat-section{border-top:1px solid var(--line)}
+.standalone-page .combat-section>.section{padding-top:60px}
+.about-page .about-section{border-top:0;min-height:75svh}
+.about-page .about-photo>img{filter:none}
+.read-more-page{padding-top:102px}
+@media(min-width:1800px){.container{max-width:1700px}.hero-about{width:380px;padding:30px 33px}.hero-portrait{width:110px;height:110px}.project-description{font-size:16px}.responsibilities ul,.project-columns dl{font-size:15px}.project-columns h4{font-size:18px}}
+@media(max-width:1200px){nav{gap:22px;font-size:14px}.brand{font-size:22px}.brand em{font-size:12px}.team-project{padding:25px;gap:27px}.project-copy h3{font-size:28px}.project-copy h3 span{font-size:20px}.project-description{font-size:13px}.project-columns h4{font-size:13px}.project-columns dl,.responsibilities ul{font-size:11px}.role{font-size:14px}}
+@media(max-width:900px){.header-inner{height:88px}.brand{font-size:23px}.brand em{font-size:12px}.site-header nav.is-open{top:88px;font-size:15px}.team-project{grid-template-columns:1fr}.project-visual{grid-row:auto;padding-top:0}.project-columns{grid-template-columns:.8fr 1.3fr}.project-columns h4{font-size:15px}.project-columns dl,.responsibilities ul{font-size:13px}.project-description{font-size:14px}.project-image-wrap{aspect-ratio:16/9}.standalone-page,.read-more-page{padding-top:88px}.hero-about{padding:25px;width:330px}.hero-portrait{width:84px;height:84px;margin-bottom:16px}.hero-about h1{font-size:27px}.hero-about>p{font-size:13px!important}}
+@media(max-width:600px){.header-inner{height:84px}.brand{font-size:21px}.brand em{font-size:11px}.menu-toggle{font-size:12px}.site-header nav.is-open{top:84px;gap:22px;font-size:14px}.hero{min-height:810px}.hero-about{bottom:85px;width:min(330px,100%);padding:24px}.hero-portrait{width:80px;height:80px;margin-bottom:15px}.hero-about h1{font-size:27px}.hero-about>p{font-size:13px!important}.hero-meta{margin:18px 0 20px;font-size:10px}.main-projects-heading h2{font-size:21px}.team-project{padding:20px;gap:25px}.project-copy h3{font-size:27px}.project-copy h3 span{font-size:19px}.project-columns{grid-template-columns:1fr;gap:22px}.project-columns h4{font-size:15px}.project-columns dl{display:grid;grid-template-columns:1fr 1fr;gap:5px 15px}.project-columns dl>div{margin:0}.project-description{font-size:13px}.responsibilities ul{font-size:12px}.standalone-page,.read-more-page{padding-top:84px}.standalone-heading{padding-top:45px;padding-bottom:35px}.standalone-heading h1{font-size:40px;letter-spacing:-1px}.standalone-heading p{font-size:13px}.about-page .about-section>.section{padding-top:50px}}

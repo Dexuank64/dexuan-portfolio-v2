@@ -1,0 +1,37 @@
+nav>.social-icons{border-left:1px solid #ffffff30;padding-left:22px;margin-left:0;gap:18px}
+.social-icons{display:flex;justify-content:center;align-items:center;gap:34px;color:#f6d77c}
+.social-icons>a{display:grid;place-items:center;width:30px;height:32px;transition:opacity .2s,transform .2s}
+.social-icons svg{display:block;width:100%;height:100%;fill:currentColor}
+.social-icons .icon-cutout{fill:#1f2728}
+.social-icons .envelope-fold{fill:none;stroke:#1f2728;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.social-icons a:hover{opacity:.8;transform:translateY(-2px)}
+.project-heading-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:20px;padding-bottom:22px;border-bottom:1px solid #60717160;margin-bottom:20px}
+.project-heading-row h3 span{display:inline-block}
+.project-heading-row h3{margin:0 0 11px}
+.project-heading-row .role{border:0;padding:0;font-size:15px}
+.project-logos{display:flex;align-items:center;gap:17px;flex-shrink:0}
+.project-logos img{object-fit:contain;mix-blend-mode:screen;display:block}
+.project-logos .engine-logo{width:59px;height:66px}
+.project-logos .team-logo{width:120px;height:66px}
+.project-heading-row+.project-description{margin-top:0}
+footer.social-footer{padding:0;border-top:1px solid #35433e;background:#202728;min-height:135px;display:flex;align-items:center;justify-content:center}
+.social-footer .social-icons{gap:36px}
+.social-footer .social-icons>a{width:46px;height:46px}
+.project-image-wrap:has(.project-video) .image-tag{display:none}
+@media(max-width:1200px){nav{gap:22px}nav>.social-icons{padding-left:17px;gap:14px}.project-logos .engine-logo{width:49px;height:56px}.project-logos .team-logo{width:104px;height:56px}.project-logos{gap:13px}.project-heading-row{gap:14px}}
+@media(max-width:900px){nav>.social-icons{border-left:0;padding-left:0}.project-logos .engine-logo{width:59px;height:66px}.project-logos .team-logo{width:120px;height:66px}}
+@media(max-width:600px){.project-heading-row{align-items:flex-start;gap:20px}.project-heading-row .role{font-size:14px}.project-logos .engine-logo{width:44px;height:50px}.project-logos .team-logo{width:103px;height:50px}.social-icons>a{width:27px;height:29px}footer.social-footer{min-height:115px}.social-footer .social-icons>a{width:39px;height:39px}.social-footer .social-icons{gap:30px}}
+@media(max-width:1400px){.project-heading-row{gap:13px}.project-logos{gap:9px}.project-logos .engine-logo{width:34px;height:46px}.project-logos .team-logo{width:80px;height:46px}}
+@media(max-width:600px){.project-heading-row{gap:12px}.project-logos{gap:8px}.project-logos .engine-logo{width:30px;height:42px}.project-logos .team-logo{width:72px;height:42px}}
+
+.team-project .read-more-link{background:transparent;border-color:var(--line);color:#e3e8df}
+.team-project .read-more-link:hover{background:#dfbd6910;border-color:var(--gold);color:#e3e8df}
+
+.project-award-badges{display:flex;align-items:center;justify-content:center;gap:32px;padding:25px 0 0}.project-award-badges img{width:clamp(100px,10vw,160px);aspect-ratio:1/1;object-fit:contain;mix-blend-mode:screen}@media(max-width:600px){.project-award-badges{gap:25px;padding-top:20px}.project-award-badges img{width:120px}}
+#palegrave.team-project{align-items:stretch}
+#palegrave .project-copy{display:flex;flex-direction:column}
+#palegrave .project-copy>.project-actions{margin-top:auto;padding-top:25px}
+#palegrave .project-visual{align-self:stretch;display:flex;flex-direction:column}
+#palegrave .project-image-wrap{flex-shrink:0}
+#palegrave .project-award-badges{margin-top:auto}
+@media(max-width:900px){#palegrave .project-copy>.project-actions{margin-top:0}#palegrave .project-award-badges{margin-top:0}}
