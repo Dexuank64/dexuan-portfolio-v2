@@ -4,3 +4,5 @@
 .palegrave-figures.editor-shots img{aspect-ratio:1/1}
 .palegrave-reference .palegrave-figures:not(.single) img{aspect-ratio:3/4;object-fit:contain}
 .palegrave-reference .palegrave-figures.wide-notes img{aspect-ratio:3/1}
+
+.palegrave-reference-link{color:var(--gold);text-decoration:underline;text-underline-offset:3px}.palegrave-reference-link:hover{color:#fff}.palegrave-reference-link:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
