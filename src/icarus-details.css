@@ -6,3 +6,8 @@
 .palegrave-detail .icarus-detail-cover{object-position:center 50%}
 @media(max-width:720px){.icarus-detail-cover{height:155px}}
 .icarus-demo-grid img{height:auto}
+
+/* Keep the attack and evasion demo compact without changing other demonstrations. */
+.icarus-demo-grid.single.compact{width:100%;max-width:640px}
+
+.icarus-enemy-showcase{width:100%;max-width:900px;margin:30px 0 50px}.icarus-enemy-showcase video{display:block;width:100%;aspect-ratio:16/9;background:#0a1012;border:1px solid #3c4b4b;object-fit:contain}.icarus-enemy-showcase figcaption{font-size:12px;line-height:1.6;color:#9badab;padding-top:10px}
