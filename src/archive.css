@@ -9,3 +9,6 @@
 .archive-project>.project-actions{margin-top:auto;padding-top:26px}
 
 .archive-intro .archive-asset-notice{color:var(--gold);font-weight:600;margin-top:16px;font-size:15px;line-height:1.7}
+
+/* Place combat project actions beside the highlights instead of below both columns. */
+.combat-archive-project .archive-project-description{min-height:3.6em}.combat-archive-project .project-actions{margin-top:18px;padding-top:0}.combat-archive-project .archive-project-columns li:last-child{margin-bottom:0}
